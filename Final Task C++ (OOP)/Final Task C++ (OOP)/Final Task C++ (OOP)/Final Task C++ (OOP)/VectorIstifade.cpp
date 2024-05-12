@@ -653,7 +653,7 @@ namespace YemekZakaz {
 
 	void menyu_yemek(Yemekler& yemek, short index_menyu) {
 
-		system("cls");
+		system("cls ");
 
 		string arry[3] = { "1.Exit:","2.SebeteElave:" };
 
@@ -727,6 +727,16 @@ namespace YemekZakaz {
 	}
 
 	void Sebet_elave(Yemekler& yemek, short index_menyu) {
+
+		system("cls");
+
+		for (size_t i = 0; i < UserAccauntVector::accaunts[index_menyu].Sebet.size(); i++) {
+			if (yemek.name == UserAccauntVector::accaunts[index_menyu].Sebet[i].name) {
+				cout << "Bu yemek Artiq Sebetde Var:";
+				menyu(index_menyu);
+			}
+		}
+
 		UserAccauntVector::accaunts[index_menyu].Sebet.push_back(yemek);
 
 		cout << "Yemek Elave Olundu:" << endl;
