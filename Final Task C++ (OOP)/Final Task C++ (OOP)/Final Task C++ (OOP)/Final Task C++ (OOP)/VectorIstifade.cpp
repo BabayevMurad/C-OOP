@@ -576,7 +576,7 @@ namespace YemekZakaz {
 		short kod_ilk = _getch();
 
 		if (kod_ilk == ESC)
-			AdminMenyu::menyu();
+			UserMenyu::menyu(index_menyu);
 
 		short color_choice = 0;
 
@@ -829,7 +829,7 @@ namespace YemekSebet {
 
 		system("cls");
 
-		string arry[4] = { "1.Exit:","2.Info:","3.Zakaz","4.Silmek" };
+		string arry[5] = { "1.Exit:","2.Info:","3.Zakaz","4.Zakaz Hamsi","5.Silmek"};
 
 		short color_choice = 0;
 
@@ -845,7 +845,7 @@ namespace YemekSebet {
 
 			cout << endl;
 
-			for (size_t i = 0; i < 3; i++) {
+			for (size_t i = 0; i < 4; i++) {
 				if (color_choice == i) {
 					change_color(GREEN);
 					cout << arry[i] << endl;
@@ -868,12 +868,12 @@ namespace YemekSebet {
 				if (color_choice != 0)
 					color_choice--;
 				else if (color_choice == 0)
-					color_choice = 2;
+					color_choice = 4;
 			}
 			else if (kod == DOWN) {
-				if (color_choice != 1)
+				if (color_choice != 4)
 					color_choice++;
-				else if (color_choice == 1)
+				else if (color_choice == 4)
 					color_choice = 0;
 			}
 
@@ -900,6 +900,10 @@ namespace YemekSebet {
 			break;
 
 		case 3:
+			//in progress
+			break;
+
+		case 4:
 			sebet_silme(yemek, color_choice, index_menyu);
 			break;
 
@@ -958,6 +962,44 @@ namespace YemekSebet {
 
 		UserAccauntVector::accaunts[index_menyu].Sebet.erase(UserAccauntVector::accaunts[index_menyu].Sebet.begin() + index);
 
+
+		cout << "Uqurla Zakaz Olundu:";
+
+		Sleep(1300);
+
+		menyu(index_menyu);
+
+	}
+
+	void son_zakaz_hamsi(short index_menyu) {
+
+		system("cls");
+
+		for (size_t a = 0; a < UserAccauntVector::accaunts[index_menyu].Sebet.size(); a++) {
+			for (size_t b = 0; b < UserAccauntVector::accaunts[index_menyu].Sebet[a].ingredientleri.size(); b++) {
+				for (size_t c = 0; c < IngredientVector::ingredients.size(); c++) {
+					if (UserAccauntVector::accaunts[index_menyu].Sebet[a].ingredientleri[b].getName() == IngredientVector::ingredients[c].getName()) {
+						short ambar_say = IngredientVector::ingredients[c].getCount();
+						ambar_say -= UserAccauntVector::accaunts[index_menyu].Sebet[a].ingredientleri[b].getCount();
+						IngredientVector::ingredients[c].setCount(ambar_say);
+					}
+				}
+			}
+		}
+
+		for (size_t i = 0; i < UserAccauntVector::accaunts[index_menyu].Sebet.size(); i++) {
+			for (size_t j = 0; j < UserAccauntVector::accaunts[index_menyu].Sebet[i].ingredientleri.size(); j++) {
+				Gelir_ayliq += UserAccauntVector::accaunts[index_menyu].Sebet[i].ingredientleri[j].getPrice();
+				Gelir_gunluk += UserAccauntVector::accaunts[index_menyu].Sebet[i].ingredientleri[j].getPrice();
+				Bucce += UserAccauntVector::accaunts[index_menyu].Sebet[i].ingredientleri[j].getPrice();
+			}
+		}
+		
+		for (size_t i = 0; i < UserAccauntVector::accaunts[index_menyu].Sebet.size(); i++) {
+			UserAccauntVector::accaunts[index_menyu].history.push_back(UserAccauntVector::accaunts[index_menyu].Sebet[i]);
+		}
+
+		UserAccauntVector::accaunts[index_menyu].Sebet.clear();
 
 		cout << "Uqurla Zakaz Olundu:";
 
