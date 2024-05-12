@@ -754,6 +754,8 @@ namespace YemekSebet {
 
 	void son_zakaz(Yemekler& yemek, short index, short index_menyu);
 
+	void son_zakaz_hamsi(short index_menyu);
+
 	void menyu(short index) {
 
 		system("cls");
@@ -845,7 +847,7 @@ namespace YemekSebet {
 
 			cout << endl;
 
-			for (size_t i = 0; i < 4; i++) {
+			for (size_t i = 0; i < 5; i++) {
 				if (color_choice == i) {
 					change_color(GREEN);
 					cout << arry[i] << endl;
@@ -900,7 +902,7 @@ namespace YemekSebet {
 			break;
 
 		case 3:
-			//in progress
+			son_zakaz_hamsi(index_menyu);
 			break;
 
 		case 4:

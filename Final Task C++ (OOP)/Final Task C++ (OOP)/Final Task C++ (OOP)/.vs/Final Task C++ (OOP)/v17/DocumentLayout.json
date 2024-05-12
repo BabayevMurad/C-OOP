@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\",
+  "WorkspaceRootPath": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|solutionrelative:Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|solutionrelative:Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,31 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Final Task C\u002B\u002B (OOP).cpp",
-              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
+              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
               "RelativeDocumentMoniker": "Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
-              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
+              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
               "RelativeToolTip": "Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T10:59:14.389Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "VectorIstifade.cpp",
-              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
+              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
               "RelativeDocumentMoniker": "Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
-              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
+              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
               "RelativeToolTip": "Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
-              "ViewState": "AQIAAKgDAAAAAAAAAAAiwM8DAAAQAAAA",
+              "ViewState": "AQIAAOUCAAAAAAAAAAASwPQCAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-12T12:06:04.775Z",
               "EditorCaption": ""
