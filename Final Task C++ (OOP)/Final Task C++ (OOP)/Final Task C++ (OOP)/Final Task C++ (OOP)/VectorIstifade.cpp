@@ -762,7 +762,7 @@ namespace YemekSebet {
 
 	void sebet_silme(Yemekler& yemek, short index, short index_menyu);
 
-	void son_zakaz(Yemekler& yemek, short index, short index_menyu);
+	void son_zakaz(Yemekler& yemek, short index_menyu);
 
 	void son_zakaz_hamsi(short index_menyu);
 
@@ -908,7 +908,7 @@ namespace YemekSebet {
 			break;
 
 		case 2:
-			son_zakaz(yemek, color_choice, index_menyu);
+			son_zakaz(yemek, index_menyu);
 			break;
 
 		case 3:
@@ -953,7 +953,7 @@ namespace YemekSebet {
 
 	}
 
-	void son_zakaz(Yemekler& yemek, short index, short index_menyu) {
+	void son_zakaz(Yemekler& yemek, short index_menyu) {
 
 		system("cls");
 
@@ -970,7 +970,15 @@ namespace YemekSebet {
 		Gelir_ayliq += yemek.price;
 		Gelir_gunluk += yemek.price;
 		Bucce += yemek.price;
-		UserAccauntVector::accaunts[index_menyu].history.push_back(UserAccauntVector::accaunts[index_menyu].Sebet[index]);
+		UserAccauntVector::accaunts[index_menyu].history.push_back(yemek);
+
+		short index = 0;
+
+		for (size_t i = 0; i < UserAccauntVector::accaunts[index_menyu].Sebet.size(); i++) {
+			if (yemek.name == UserAccauntVector::accaunts[index_menyu].Sebet[i].name) {
+				index = i;
+			}
+		}
 
 		UserAccauntVector::accaunts[index_menyu].Sebet.erase(UserAccauntVector::accaunts[index_menyu].Sebet.begin() + index);
 
@@ -1115,7 +1123,7 @@ namespace History {
 			throw Error("History Yoxdu:");
 		}
 
-		cout << "Cixmaq Ucun Esc Basin Eks halda istenileni basin:";
+		cout << "Cixmaq Ucun Esc Basin Eks halda istenileni basin:" << endl;
 
 		short kod_ilk = _getch();
 

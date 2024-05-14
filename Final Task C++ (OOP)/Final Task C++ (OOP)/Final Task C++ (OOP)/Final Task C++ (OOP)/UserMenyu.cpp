@@ -91,8 +91,9 @@ namespace UserMenyu {
 			catch (Error error) {
 				system("cls");
 				error.what();
+				cout << "Menyu Bosdur";
 				Sleep(1500);
-				goto Evvel1;
+				menyu(index_menyu);
 			}
 			break;
 		case 3:
@@ -115,9 +116,9 @@ namespace UserMenyu {
 			}
 			catch (Error error) {
 				system("cls");
-				error.what();
+				cout << "Sebet Bosdur:";
 				Sleep(1500);
-				goto Evvel2;
+				menyu(index_menyu);
 			}
 			break;
 		case 4:
@@ -140,9 +141,8 @@ namespace UserMenyu {
 			}
 			catch (Error error) {
 				system("cls");
-				error.what();
+				cout << "History Yoxdu";
 				Sleep(1500);
-				goto Evvel3;
 			}
 			break;
 		default:

@@ -1,7 +1,1 @@
-﻿  VectorIstifade.cpp
-C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\VectorIstifade.cpp(92,21): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\VectorIstifade.cpp(337,11): warning C4129: 'X': unrecognized character escape sequence
-C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\VectorIstifade.cpp(456,58): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\VectorIstifade.cpp(628,40): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\VectorIstifade.cpp(814,69): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-  Final Task C++ (OOP).vcxproj -> C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\x64\Debug\Final Task C++ (OOP).exe
+﻿  Final Task C++ (OOP).vcxproj -> C:\Users\Babay_aq38\Desktop\C++ Repasitory\Final Task C++ (OOP)\Final Task C++ (OOP)\Final Task C++ (OOP)\x64\Debug\Final Task C++ (OOP).exe

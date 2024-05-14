@@ -76,21 +76,21 @@ namespace YemekMenyu {
 			}
 			catch (equal_name eyni) {
 				system("cls");
-				eyni.what();
+				cout << eyni.what();
 				Sleep(1500);
 				goto Evvel;
 			}
 			catch (int_input_str sehf) {
 				system("cls");
-				sehf.what();
+				cout << sehf.what();
 				Sleep(1500);
 				goto Evvel;
 			}
-			catch (Error error) {
+			catch (Error& error) {
 				system("cls");
-				error.what();
+				cout << "Yemek Yoxdu:";
 				Sleep(1500);
-				goto Evvel;
+				Menyu();
 			}
 			break;
 
@@ -101,21 +101,21 @@ namespace YemekMenyu {
 			}
 			catch (equal_name eyni) {
 				system("cls");
-				eyni.what();
+				cout << eyni.what();
 				Sleep(1500);
 				goto Evvel1;
 			}
 			catch (int_input_str sehf) {
 				system("cls");
-				sehf.what();
+				cout << sehf.what();
 				Sleep(1500);
 				goto Evvel1;
 			}
-			catch (Error error) {
+			catch (Error& error) {
 				system("cls");
-				error.what();
+				cout << "Ingredient Yoxdu:";
 				Sleep(1500);
-				goto Evvel1;
+				Menyu();
 			}
 			catch (...) {
 				system("cls");
