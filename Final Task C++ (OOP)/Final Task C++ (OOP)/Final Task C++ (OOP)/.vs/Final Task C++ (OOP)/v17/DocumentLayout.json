@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|solutionrelative:Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\UserMenyu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|solutionrelative:Final Task C\u002B\u002B (OOP)\\UserMenyu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\AdminMenyu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|solutionrelative:Final Task C\u002B\u002B (OOP)\\AdminMenyu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23C6CC91-B147-428E-A53A-D7AFC1763EC9}|Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).vcxproj|C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Final Task C\u002B\u002B (OOP).cpp",
               "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
               "RelativeDocumentMoniker": "Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP).cpp",
@@ -40,34 +36,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserMenyu.cpp",
-              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\UserMenyu.cpp",
-              "RelativeDocumentMoniker": "Final Task C\u002B\u002B (OOP)\\UserMenyu.cpp",
-              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\UserMenyu.cpp",
-              "RelativeToolTip": "Final Task C\u002B\u002B (OOP)\\UserMenyu.cpp",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAH4AAAAUAAAA",
+              "DocumentIndex": 0,
+              "Title": "AdminMenyu.cpp",
+              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\AdminMenyu.cpp",
+              "RelativeDocumentMoniker": "Final Task C\u002B\u002B (OOP)\\AdminMenyu.cpp",
+              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\AdminMenyu.cpp",
+              "RelativeToolTip": "Final Task C\u002B\u002B (OOP)\\AdminMenyu.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-14T12:04:16.662Z",
+              "WhenOpened": "2024-05-14T13:31:14.801Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VectorIstifade.cpp",
-              "DocumentMoniker": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
-              "RelativeDocumentMoniker": "Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
-              "ToolTip": "C:\\Users\\Babay_aq38\\Desktop\\C\u002B\u002B Repasitory\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
-              "RelativeToolTip": "Final Task C\u002B\u002B (OOP)\\VectorIstifade.cpp",
-              "ViewState": "AQIAAEwEAAAAAAAAAAAwwGQEAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-14T12:12:45.004Z",
-              "EditorCaption": ""
             }
           ]
         }

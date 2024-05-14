@@ -29,8 +29,7 @@ void IngedientForArry::setPrice(unsigned short price) {
 }
 
 void IngedientForArry::showinfomenyu() {
-	if (count > 0)
-		cout << "Name: " << name << " Count: " << count << " Price:" << price << endl;
+	cout << "Name: " << name << " Count: " << count << " Price:" << price << endl;
 }
 
 void IngedientForArry::showinfomeals() {

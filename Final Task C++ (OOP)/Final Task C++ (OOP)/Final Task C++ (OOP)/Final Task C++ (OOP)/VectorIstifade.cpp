@@ -421,6 +421,8 @@ namespace YemekAdd {
 
 		YemeklerVector::yemekler.push_back(Yemekler(name, description, ingformeals, price));
 
+		ingformeals.clear();
+
 		YemekMenyu::Menyu();
 	}
 
@@ -568,7 +570,7 @@ namespace YemekZakaz {
 
 			Sleep(1500);
 
-			AdminMenyu::menyu();
+			UserMenyu::menyu(index_menyu);
 		}
 
 		cout << "Cixmaq Ucun Esc Basin Eks halda istenileni basin:";
